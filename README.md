@@ -1,0 +1,103 @@
+# 💼 Employee Salary Predictor App
+
+A user-friendly **Streamlit web application** that predicts employee salaries based on demographic and professional attributes using a **pre-trained machine learning model**.
+
+🎯 Predict salary by entering:
+- Age
+- Gender
+- Education Level
+- Job Title
+- Years of Experience
+
+---
+
+## 🚀 Demo
+
+![App Preview](/images/sample-ui.png)  
+![App Preview](/images/sample-ui_2.png)  
+
+## 📽️video
+![App Preview](/Video/video-1.mp4)
+
+---
+
+## 🧠 Project Overview
+
+This project uses machine learning models such as **Random Forest Regressor** and **XGBoost** to train on employee salary data. Model training is handled by `Model training.py` to select and save the best performer.
+
+The web app (`app.py`) lets users:
+- Enter employee details
+- Predict salary using the saved model `best_salary_predictor.pkl`
+- View model R² accuracy
+- See feature importance charts
+
+---
+
+
+---
+
+## ⚙️ How to Run Locally
+
+### 1. Clone the Repository
+
+
+### 2. (Optional) Create and Activate a Virtual Environment
+
+
+### 3. Install Dependencies
+
+
+### 3. Install Dependencies
+python -m venv venv
+source venv/bin/activate # On Linux/Mac
+venv\Scripts\activate.bat # On Windows
+
+
+### 3. Install Dependencies
+
+pip install -r requirements.txt
+
+
+### 4. Launch the Streamlit App
+
+streamlit run app.py
+
+
+The app will open in your browser at `http://localhost:8501`.
+
+---
+
+## 🧪 Model Information
+
+- **RandomForestRegressor** (best model, by default)
+- Trained/tested using `train_test_split`
+- R² Score used for evaluation
+
+> The training script (`Model-training.py`) performs:
+> - Data cleaning and encoding
+> - Model training and evaluation
+> - Model selection and saving (with `joblib`)
+
+---
+
+## ✅ Sample Prediction Features
+
+| Feature               | Type         | Example            |
+|-----------------------|--------------|--------------------|
+| Age                   | Numeric      | `29`               |
+| Gender                | Categorical  | `Male`             |
+| Education Level       | Categorical  | `Master's Degree`  |
+| Job Title             | Categorical  | `Data Analyst`     |
+| Years of Experience   | Numeric      | `4`                |
+
+---
+
+## 📷 Feature Importance
+
+For tree-based models, feature importances are displayed in a bar chart, available in the UI for Random Forest and XGBoost options.
+
+![alt text](/images/Feature%20Importance.png)
+
+---
+
+
