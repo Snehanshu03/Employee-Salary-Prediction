@@ -20,7 +20,6 @@ A user-friendly **Streamlit web application** that predicts employee salaries ba
 
 ## 📽️video
 
-![App Preview]
 ---
 
 ## 🧠 Project Overview
