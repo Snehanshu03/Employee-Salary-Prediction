@@ -6,7 +6,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.metrics import r2_score
 
 # Load dataset
-df = pd.read_csv('D:\\inTERNSHIP\\Employee salary\\Salary Data.csv').dropna()
+df = pd.read_csv('Salary Data.csv').dropna()
 
 # Sidebar: Collect user inputs
 st.sidebar.header("Enter Employee Details")
