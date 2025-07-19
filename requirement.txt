@@ -1,7 +1,6 @@
 streamlit
+joblib
 scikit-learn
 pandas
 numpy
-xgboost
-matplotlib
-joblib
+# ... other dependencies
