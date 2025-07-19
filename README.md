@@ -15,11 +15,12 @@ A user-friendly **Streamlit web application** that predicts employee salaries ba
 
 ![App Preview]<img width="1915" height="1028" alt="sample-ui" src="https://github.com/user-attachments/assets/62d1396f-c51e-4ce9-b506-a9ec68404a85" />
   
-![App Preview](/images/sample-ui_2.png)  
+![App Preview]<img width="1913" height="1024" alt="sample-ui_2" src="https://github.com/user-attachments/assets/d18b722f-f2b2-40e7-8201-87d85ac0d28b" />
+  
 
 ## 📽️video
-![App Preview](/Video/video-1.mp4)
 
+![App Preview]
 ---
 
 ## 🧠 Project Overview
