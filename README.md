@@ -63,7 +63,7 @@ pip install -r requirements.txt
 streamlit run app.py
 
 
-The app will open in your browser at `http://localhost:8501`.
+The app will open in your browser at `https://employee-salary-prediction-an2dips4mkcduykwk37pne.streamlit.app/`.
 
 ---
 
